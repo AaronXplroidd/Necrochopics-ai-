@@ -1,2 +1,19 @@
-# Necrochopics-ai-
-Necrochopics.AI is a modular AI chatbot designed to be lightweight yet flexible and powerful. Using the LLaMA 3 model (8B, 8192 tokens) via the Groq API, this project is suitable to run in minimal environments such as Termux, low-end laptops, or lightweight servers.
+# Necrochopics.AI
+
+Chatbot AI modular dan **super ringan**, pakai Groq API + LLaMA3.
+Bisa jalan via CLI atau GUI bubble-chat terminal (Textual).
+Cocok di Termux, laptop low-spec, atau server.
+---
+
+## Instalasi
+
+```bash
+git clone https://github.com/username/necrochopics-ai.git
+cd necrochopics-ai
+pip install -r requirements.txt
+
+#Credit
+Legendryou_26
+
+#*Kalo mau ubah model tinggal diubah di bagian config.py.
+Anjayzzzzzzzzzzzz
