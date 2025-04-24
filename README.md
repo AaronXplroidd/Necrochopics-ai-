@@ -12,6 +12,5 @@ Cocok di Termux, laptop low-spec, atau server.
 git clone https://github.com/AaronXplroidd/necrochopics-ai.git
 cd necrochopics-ai
 pip install -r requirements.txt
-python main.py OR
-python main.py gui
+python main.py 
 
