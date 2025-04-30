@@ -33,10 +33,10 @@ def kirim_ke_ai(chat_history):
             time.sleep(1)
         except requests.exceptions.RequestException as e:
             log_error(f"RequestException: {e}")
-            return f"[!] Gagal koneksi ke API: {e}"
+            return f"[!] cant connect in API key,can you check it?: {e}"
         except Exception as e:
             log_error(f"Unknown error: {e}")
-            return f"[!] Kesalahan tidak terduga: {e}"
+            return f"[!] somthing went wrong,pls double check: {e}"
 
-    log_error("Gagal mendapatkan balasan setelah beberapa kali percobaan.")
-    return "[!] Aku lagi sibuk, coba lagi nanti ya..."
+    log_error("Cant Sending a request,maybe something went wrong?!")
+    return "[!] oh no something wrong:p, try later pls.."
