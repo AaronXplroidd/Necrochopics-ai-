@@ -41,8 +41,8 @@ def mulai_chat():
             history.append({"role": "assistant", "content": jawaban})
 
         except KeyboardInterrupt:
-            console.print("\n\n[bold red][!] Sesi dihentikan (Ctrl+C). Sampai jumpa![/bold red]")
+            console.print("\n\n[bold red][!] Session has bern stopped(Ctrl+C). sayonaraa![/bold red]")
             break
         except Exception as e:
             log_error(f"Loop error: {e}")
-            console.print(f"\n[bold red][!] Error tidak dikenal:[/] {e}\n")
+            console.print(f"\n[bold red][!] Eror 403, unknown:[/] {e}\n")
