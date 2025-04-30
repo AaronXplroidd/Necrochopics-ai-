@@ -23,10 +23,10 @@ def bersihkan_jawaban(teks):
 
 def autocorrect(teks):
     return (
-        teks.replace("gmn", "gimana")
-            .replace("knp", "kenapa")
-            .replace("tp", "tapi")
-            .replace("yg", "yang")
-            .replace("dgn", "dengan")
-            .replace("sm", "sama")
+        teks.replace("idk", "i dont know")
+            .replace("ofc", "of course")
+            .replace("bc", "because")
+            .replace("nvm", "nevermind")
+            .replace("stpd", "stupid")
+            .replace("lol", "funny")
     )
