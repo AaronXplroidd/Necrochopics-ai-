@@ -1,6 +1,6 @@
 # necrochopics/config.py
 
-API_KEY = "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"
+API_KEY = "groq_api"
 MODEL = "llama3-8b-8192"
 ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 TEMPERATURE = 0.7
