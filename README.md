@@ -1,10 +1,8 @@
 # Necrochopics.AI
 
-Chatbot AI modular dan **super ringan**, pakai Groq API + LLaMA3.
-Bisa jalan via CLI atau GUI bubble-chat terminal (Textual).
-Cocok di Termux, laptop low-spec, atau server.
-(kayanya akwoakiwkwowkwowk)
----
+chatbot berbasis online sekaligus ringan dan opensource.
+mohon untuk memasukan API Key anda sendiri dan Prompt yang dipakai.
+Yauda lah sisanya liat sourcenya sendiri 
 
 ## Instalasi
 
